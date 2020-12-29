@@ -307,7 +307,7 @@ Json Web Token (JWT)
 ## 14. Cross-Site Scripting Testing
 - Locator: '';!--"<dgon>=&{()}
 - Try XSS using XSSstrike tool by Somdev Sangwan
-- Upload file using '"><img src=x onerror=alert(document.domain)>.txt
+- Upload file using ```'"><img src=x onerror=alert(document.domain)>.txt```
 - Standard payload for URI and all inputs:
   - ``` "><img src=x onerror=prompt(document.cookie);><!--```
   - ```"><img src=x onerror=confirm(document.cookie);><!--```
@@ -362,6 +362,7 @@ o ‹%tag style=”dgon:expression(alert(123))”
 - Check if ASP.net viewstate parameter is encrypted or not
 - Check if any ASP configuration is disclosed publicly or not
 - Check if error codes reveal the version of ASP.NET used in the application
+
 ## 19. CSRF Testing
 - Re-use Anti-CSRF token for CSRF attack
 - Check if token is validated on server side or not
