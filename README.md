@@ -142,7 +142,7 @@ Json Web Token (JWT)
 
 - [ ] If possible -- move infrastructure to the virtual network
 
-## Captcha
+## 11. Captcha
 
 - [ ] Implement CAPTCHA 
 
